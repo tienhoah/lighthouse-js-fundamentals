@@ -11,3 +11,16 @@ function howManyHundreds(number) {
 }
 
 console.log(howManyHundreds(123456));
+
+
+function calculateRectangleArea(length,width) {
+  if (length <0 || width < 0) {
+
+    console.log("undefined");
+  } else {
+    console.log(length * width);
+  }
+
+}
+
+calculateRectangleArea(-1,0);
